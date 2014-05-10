@@ -70,6 +70,7 @@ $jams = $data->jams;
         <h3>LD29</h3>
         <ul>
 <?php
+    shuffle($jam);
     foreach($jam as $game){
       echo "<li>";
       echo "<a href='http://www.ludumdare.com/compo/ludum-dare-29/?action=preview&uid=".$game->lduid."'>".$game->name."</a> by <a href='https://twitter.com/".$game->twitter."'>@".$game->twitter."</a>";
