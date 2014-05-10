@@ -33,6 +33,9 @@
         width: 32em;
         padding: 1em;
       }
+      a {
+        color: #22C8CF;
+      }
     </style>
   </head>
   <body>
