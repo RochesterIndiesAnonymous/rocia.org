@@ -1,22 +1,61 @@
 {
   "talks": [
     {
-        "twitter":"wespaugh",
-        "date":"2014.03.29",
-        "title":"Skill Trees",
-        "youtube":"RReQwbqxOU4"
+      "twitter": "wespaugh",
+      "date": "2014.03.29",
+      "title": "Skill Trees",
+      "youtube": "RReQwbqxOU4"
     },
     {
-        "twitter":"josefnpat",
-        "date":"2014.03.29",
-        "title":"Ok, let's jam",
-        "youtube":"qn8i3Isji-s"
+      "twitter": "josefnpat",
+      "date": "2014.03.29",
+      "title": "Ok, let's jam",
+      "youtube": "qn8i3Isji-s"
     },
     {
-        "twitter":"wespaugh",
-        "date":"2014.04.12",
-        "title":"Fa&ccedil;ade",
-        "youtube":"xHwxw5969Nw"
+      "twitter": "wespaugh",
+      "date": "2014.04.12",
+      "title": "Fa&ccedil;ade",
+      "youtube": "xHwxw5969Nw"
     }
-  ]
+  ],
+  "jams": {
+    "LD29": [
+      {
+        "twitter": "josefnpat",
+        "name": "Advanced Cave Crawler",
+        "lduid": "11249"
+      },
+      {
+        "twitter": "CeruleanOtter",
+        "name": "ITS A TREE",
+        "lduid": "35718"
+      },
+      {
+        "twitter": "wespaugh",
+        "name": "Light and Hate",
+        "lduid": "26579"
+      },
+      {
+        "twitter": "guypaddock",
+        "name": "Indie: A Text-based Adventure",
+        "lduid": "36887"
+      },
+      {
+        "twitter": "louroboros",
+        "name": "Without a Paddle",
+        "lduid": "12236"
+      },
+      {
+        "twitter": "zacaj_",
+        "name": "&lt;GAME NAME&gt;",
+        "lduid": "1059"
+      },
+      {
+        "twitter": "peterrstanley",
+        "name": "Utopia Underground",
+        "lduid": "16515"
+      }
+    ]
+  }
 }
