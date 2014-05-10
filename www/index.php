@@ -40,9 +40,9 @@
       <div class="info">
         <h3>About ROCIA</h3>
           <p><b>Roc</b>hester <b>I</b>ndies <b>A</b>nonymous (<i>r&auml;k-y&auml;</i>) is a "support" group for independent video game developers in Rochester, NY. If you are interested in coming to our meetings, please contact us by facebook!</p>
-        <a href="https://www.facebook.com/groups/ROCIndiesAnonymous"><img src="fb.png"/></a>
-        <a href="https://twitter.com/josefnpat/lists/rocia"><img src="tw.png"/></a>
-        <a href="https://github.com/RochesterIndiesAnonymous"><img src="gh.png"/></a>
+        <a href="https://www.facebook.com/groups/ROCIndiesAnonymous"><img src="fb.png" width=32 height=32/></a>
+        <a href="https://twitter.com/josefnpat/lists/rocia"><img src="tw.png" width=32 height=32/></a>
+        <a href="https://github.com/RochesterIndiesAnonymous"><img src="gh.png" width=32 height=32/></a>
 <?php
 
 $data = json_decode(file_get_contents('data.json'));
