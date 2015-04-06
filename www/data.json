@@ -20,7 +20,7 @@
     }
   ],
   "jams": {
-    "LD29": [
+    "Ludum Dare 29 (ROCIA Jam)": [
       {
         "twitter": "josefnpat",
         "name": "Advanced Cave Crawler",
@@ -55,6 +55,25 @@
         "twitter": "peterrstanley",
         "name": "Utopia Underground",
         "lduid": "16515"
+      }
+    ],
+    "<a href='http://itch.io/jam/rocia-jam-ii'>ROCIA Jam II</a>": [
+      {
+        "twitter": "josefnpat",
+        "name": "Game Jam-Chan",
+        "uri": "http://josefnpat.itch.io/game-jam-chan"
+      },
+      {
+        "twitter": "guypaddock",
+        "credit": ["Joseph Braband","Andrew Cutter","Dennis McCorry"],
+        "name": "Snowball's Chance",
+        "uri": "http://guypaddock.itch.io/snowballs-chance"
+      },
+      {
+        "twitter": ["wespaugh"],
+        "credit": [],
+        "name": "THE MOON IS A HARSH BATTLESHIP",
+        "uri": "http://wespaugh.itch.io/the-moon-is-a-harsh-battleship"
       }
     ]
   }

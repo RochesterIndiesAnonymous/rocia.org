@@ -69,15 +69,47 @@ $jams = $data->jams;
 ?>
         </ul>
 <?php
-  foreach($jams as $jam){
+  foreach($jams as $jam_name => $jam){
 ?>
-        <h3>LD29</h3>
+        <h3><?php echo $jam_name; ?></h3>
         <ul>
 <?php
     shuffle($jam);
     foreach($jam as $game){
       echo "<li>";
-      echo "<a href='http://www.ludumdare.com/compo/ludum-dare-29/?action=preview&uid=".$game->lduid."'>".$game->name."</a> by <a href='https://twitter.com/".$game->twitter."'>@".$game->twitter."</a>";
+      if(isset($game->lduid)){
+        echo "<a href='http://www.ludumdare.com/compo/ludum-dare-29/?action=preview&uid=".$game->lduid."'>".$game->name."</a> ";
+      }
+      if(isset($game->uri)){
+        echo "<a href='".$game->uri."'>".$game->name."</a> ";
+      }
+      echo "by ";
+      $people = array();
+
+      // Twitter
+      if(isset($game->twitter)){
+        if(is_array($game->twitter)){
+          $twitter_people = $game->twitter;
+        } else {
+          $twitter_people = array($game->twitter);
+        }
+        foreach($twitter_people as $twitter_person){
+          $people[] = "<a href='https://twitter.com/".$twitter_person."'>@".$twitter_person."</a>";
+        }
+      }
+      // Credit
+      if(isset($game->credit)){
+        if(is_array($game->credit)){
+          $credit_people = $game->credit;
+        } else {
+          $credit_people = array($game->credit);
+        }
+        foreach($credit_people as $credit_person){
+          $people[] = $credit_person;
+        }
+      }
+
+      echo implode(", ",$people);
 
       echo "</li>\n";
     }
