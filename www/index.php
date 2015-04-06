@@ -46,6 +46,7 @@
         <a href="https://www.facebook.com/groups/ROCIndiesAnonymous"><img src="fb.png" width=32 height=32/></a>
         <a href="https://twitter.com/josefnpat/lists/rocia"><img src="tw.png" width=32 height=32/></a>
         <a href="https://github.com/RochesterIndiesAnonymous"><img src="gh.png" width=32 height=32/></a>
+        <a href="wiki">Wiki</a>
 <?php
 
 $data = json_decode(file_get_contents('data.json'));
