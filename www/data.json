@@ -70,10 +70,14 @@
         "uri": "http://guypaddock.itch.io/snowballs-chance"
       },
       {
-        "twitter": ["wespaugh"],
-        "credit": [],
+        "twitter": "wespaugh",
         "name": "THE MOON IS A HARSH BATTLESHIP",
         "uri": "http://wespaugh.itch.io/the-moon-is-a-harsh-battleship"
+      },
+      {
+        "twitter": "louroboros",
+        "name": "Foe",
+        "uri": "rociajam-foe.s3-website-us-east-1.amazonaws.com"
       }
     ]
   }
