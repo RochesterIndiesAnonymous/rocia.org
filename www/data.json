@@ -77,7 +77,7 @@
       {
         "twitter": "louroboros",
         "name": "Foe",
-        "uri": "rociajam-foe.s3-website-us-east-1.amazonaws.com"
+        "uri": "http://rociajam-foe.s3-website-us-east-1.amazonaws.com"
       }
     ]
   }
